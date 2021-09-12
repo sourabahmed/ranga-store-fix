@@ -20,13 +20,10 @@
 <body>
   <header></header>
   <main class="main">
-    <div class="search-field my-4">
+    <div class="search-field ">
       <div class="search-box">
-        <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
+          <input id="input-field" class="form-control search-field" type="text" />
+          <button class="btn btn-primary search-button">Search</button>
       </div>
     </div>
     <div class="row">
@@ -50,7 +47,7 @@
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
+                <td> <span id="total-Products">0</span></td>
                 <td></td>
                 <td></td>
               </tr>
